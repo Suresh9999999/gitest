@@ -1,0 +1,15 @@
+vi /etc/audit/rules.d/audit.rules.default
+vi /etc/audit/audit.rules
+
+
+
+
+sudo systemctl disable auditd
+
+sudo service auditd stop
+
+sudo service auditd disable
+
+service auditd status
+
+systemctl status auditd
